@@ -1,17 +1,19 @@
-document.querySelector('button').addEventListener('click', (event) =>{
+document.querySelector('#input').addEventListener('keyup', (event) => {
+
+    let output = ('#duplicateField');
+
+    document.querySelector(output).textContent = (input.value);
+});
+
+document.querySelector('#inputForm').addEventListener('submit', (event) => {
+
     event.preventDefault();
+
+    console.log(input.value);
+
+    document.querySelector('#input').value = ('')
+
+    let output = ('#duplicateField');
+
+    document.querySelector(output).textContent = ("");
 })
-
-
-
-
-
-
-// let duplicateField = document.querySelector('#duplicateField');
-// let imput = document.querySelector('#imput');
-// duplicateField.textContent = imput;
-// function textChange(){
-//     let a = document.querySelector('input').value;
-//     duplicateField.textContent = ' ';
-//     console.log(a);
-// };

@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>JS-Start. 3 задача</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<form action="#">
+<form action="#" id="inputForm">
     <label>
         Текст
-        <input id="input" type="text" placeholder="Введите текст">
+        <input type="text" placeholder="Введите текст" id="input">
     </label>
-    <button type="submit">
+    <button class="button" type="submit">
         Вывести текст в консоль и удалить из формы
     </button>
 </form>
 <hr>
-<p>Введенный текст:</p>
+<div class="text">Введенный текст:</div>
 <p id="duplicateField"></p>
 <script src="script.js"></script>
 </body>
